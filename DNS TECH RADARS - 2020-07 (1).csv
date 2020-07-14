@@ -1,0 +1,77 @@
+name,ring,quadrant,isNew,description
+ASP.NET,Hold,Languages & Frameworks,FALSE,Снят с поддержки(новых версий не будет). В качестве замены выбран NET.CORE
+Node.js,Trial,Languages & Frameworks,FALSE,
+jQuery,Adopt,Languages & Frameworks,FALSE,"Библиотека jQuery помогает легко получать доступ к любому элементу DOM, обращаться к атрибутам и содержимому элементов DOM, манипулировать ими. Также библиотека jQuery предоставляет удобный API для работы с AJAX."
+React.ts,Adopt,Languages & Frameworks,FALSE,
+Akka.NET,Adopt,Languages & Frameworks,FALSE,"Инструментарий и среда исполнения для создания параллельных, распределенных и отказоустойчивых событийно-ориентированных приложений в .NET"
+Webpack,Adopt,Techniques & Tools,FALSE,"Инструмент, позволяющий скомпилировать, например, JavaScript модули в единый JS-файл. Webpack также известен как сборщик модулей."
+npm,Adopt,Techniques & Tools,FALSE,"Менеджер пакетов, входящий в состав Node.js."
+Flutter,Adopt,Languages & Frameworks,FALSE,SDK с открытым исходным кодом для создания кросс платформенных мобильных приложений. Он используется для разработки приложений под Android и iOS. Увидели потенциал на моменте его зараждения и решили его заиспользовать на одном из важных проектов. Написано приложение для работы в розничном магазине
+Moq,Adopt,Languages & Frameworks,FALSE,Moq предназначен для имитации объектов или для создания так называемых фейковых объектов. Применяем при написании тестов
+Unity,Hold,Languages & Frameworks,FALSE,Среда для разработки компьютерных ирг. Реализован один проект для дизайнеров. 
+NET.CORE,Adopt,Languages & Frameworks,FALSE,Модульная платформа для разработки программного обеспечения с открытым исходным кодом. Кросс платформенный. Выбран вкачестве замены ASP.NET
+GRPC,Assess,Languages & Frameworks,FALSE,Опенсорсный фреймворк для удаленного вызова процедур. gRPC используется как более удобная альтернатива REST.
+ansible ,Adopt,Languages & Frameworks,FALSE,Система управления конфигурациями. Используем для CD. Деплой через AWX
+Windows Forms,Hold,Languages & Frameworks,FALSE,Интерфейс программирования приложений (Кусочек ASP.NET). Не используем т.к  ASP.NET снят с поддержки(новых версий не будет). Если есть потребность в написании приложенний такого формата используем NET.CORE (Windows forms). 
+Communda.js,Adopt,Languages & Frameworks,FALSE,Платформа с открытым исходным кодом для автоматизации рабочих процессов и принятия решений.  Широко не применяем (используем для проекта BPNM)
+Semantic UI,Adopt,Languages & Frameworks,FALSE,
+Blueprint JS,Adopt,Languages & Frameworks,FALSE,Набор инструментов для веб-интерфейса на основе React.
+NUnit,Adopt,Languages & Frameworks,FALSE,Открытая среда юнит-тестирования приложений для .NET.  Активно используем
+XUnit,Hold,Languages & Frameworks,FALSE,Ценность не определена. Используем NUnit
+UnitTesting,Hold,Languages & Frameworks,FALSE,"Модульное тестирование, иногда блочное тестирование или юнит-тестирование. Не используем т.к нет возможности в параллельном запуске тестов и устаревший способ. Используем NUnit"
+C#,Adopt,Languages & Frameworks,FALSE,Основной язык разработки для написание приложений.
+JavaScript,Hold,Languages & Frameworks,FALSE,Мультипарадигменный язык программирования. Новый реализации не пишем. используем TypeScript
+TypeScript,Adopt,Languages & Frameworks,FALSE,"Скриптовый язык, типизированный, компилируемый в JavaScript. Выбран на замену JavaScript"
+SQL,Adopt,Languages & Frameworks,FALSE,Основной язык для написание SQL Scripts для взаимодейсвия с DB.
+Python,Trial,Languages & Frameworks,FALSE,
+Java,Hold,Languages & Frameworks,FALSE,
+HTML,Adopt,Languages & Frameworks,FALSE,
+CSS/SASS,Adopt,Languages & Frameworks,FALSE,
+Dart,Adopt,Languages & Frameworks,FALSE,
+Visual Basic,Hold,Languages & Frameworks,FALSE,
+GO,Trial,Languages & Frameworks,FALSE,
+YAML,Adopt,Languages & Frameworks,FALSE,
+Nginx,Adopt,Platform & Infrastructure,FALSE,Веб-сервер и почтовый прокси-сервер.
+consul.io,Assess,Platform & Infrastructure,FALSE,Децентрализованный отказоустойчивый discovery-сервис
+IIS,Hold,Platform & Infrastructure,FALSE,Internet Information Services (проприетарный набор серверов для нескольких служб Интернета от компании Microsoft). Новые продукты размещаем на Linux + Docker
+GreyLog,Adopt,Platform & Infrastructure,FALSE,Используем для логирования в качестве хранилища ClickHouse
+Docker,Adopt,Platform & Infrastructure,FALSE,
+Drone ,Trial,Platform & Infrastructure,FALSE,
+AWX,Adopt,Platform & Infrastructure,FALSE,
+Apache Kafka,Trial,Platform & Infrastructure,FALSE,
+GitLab,Adopt,Platform & Infrastructure,FALSE,
+Kibana ,Adopt,Platform & Infrastructure,FALSE,
+NPM,Adopt,Platform & Infrastructure,FALSE,
+YARN,Adopt,Platform & Infrastructure,FALSE,
+MSSQL,Hold,DB (Data Management),FALSE,
+InfluxDB,Adopt,DB (Data Management),FALSE,
+PostgreSQL,Assess,DB (Data Management),FALSE,
+SQLite,Adopt,DB (Data Management),FALSE,
+Cassandra,Hold,DB (Data Management),FALSE,
+Redis,Adopt,DB (Data Management),FALSE,
+ElasticSearch,Adopt,DB (Data Management),FALSE,
+ClickHouse,Adopt,DB (Data Management),FALSE,
+Postgresql,Trial,DB (Data Management),FALSE,
+CQRS,Trial,Techniques & Tools,FALSE,
+Agile,Adopt,Techniques & Tools,FALSE,
+Парное програмирование,Adopt,Techniques & Tools,FALSE,
+TDD,Adopt,Techniques & Tools,FALSE,
+SonarQube,Adopt,Techniques & Tools,FALSE,
+Visual Studio,Adopt,Techniques & Tools,FALSE,
+VS Code,Adopt,Techniques & Tools,FALSE,
+Rider,Adopt,Techniques & Tools,FALSE,
+Swagger,Adopt,Techniques & Tools,FALSE,
+MMS (Microsoft Managment Studio),Adopt,Techniques & Tools,FALSE,
+DBeaver,Hold,Techniques & Tools,FALSE,
+Android Studio,Adopt,Techniques & Tools,FALSE,
+TSLint/ESLint,Adopt,Techniques & Tools,FALSE,
+Confluence,Adopt,Techniques & Tools,FALSE,
+Trello,Assess,Techniques & Tools,FALSE,
+Notion,Assess,Techniques & Tools,FALSE,
+Miro,Assess,Techniques & Tools,FALSE,
+Figma,Adopt,Techniques & Tools,FALSE,
+StarUML,Trial,Techniques & Tools,FALSE,
+XMind,Adopt,Techniques & Tools,FALSE,
+Fork,Hold,Techniques & Tools,FALSE,
+Tower,Hold,Techniques & Tools,FALSE,
+TortoiseGit,Hold,Techniques & Tools,FALSE,
